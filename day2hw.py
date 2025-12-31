@@ -1,17 +1,23 @@
-import random
-rice_price,sugar_price,oil_price=45,40,130
-rice_quantity,sugar_quantity,oil_quantity=3,2.5,1.8
-rice_total=rice_quantity*rice_price
-sugar_total=sugar_quantity*sugar_price
-oil_total=oil_quantity*oil_price
-print("total price of rice",rice_total)
-print("total price of sugar",sugar_total)
-print("total price of oil",oil_total)
-final_bill=rice_total+sugar_total+oil_total
-print("The final bill of all products",final_bill)
-final_bill_int=int(final_bill)
-print("final bill in integer",final_bill_int)
-final_bill_str=str(final_bill)
-print("final bill in string",final_bill_str)
-delivery_charge=random.randrange(5, 10)
-print("Final bill including delievry charges",final_bill+delivery_charge)
+para="""Python is a high-level, interpreted, and general-purpose programming language 
+that emphasizes code readability with its clean,
+ concise syntax. 
+ Python created by Guido van Rossum in 1991, 
+ Python is open-source and supports multiple programming paradigms, 
+ including object-oriented, functional, and procedural styles"""
+print("Length of the Paragraph")
+print(len(para))
+print("First letter :",para[0])
+print("Last letter :",para[-1])
+print("First 50 charecters from the paragraph :")
+print(para[0:50])
+print("Replace python to PYTHON")
+print(para.replace("Python","PYTHON"))
+print(para.strip())
+print("convert paragraph to lowercase")
+print(para.lower())
+print("Split to individual words")
+print(para.split(" "))
+totallen=322
+words=50
+final_msg=f"The course description is {totallen} characters long and has {words} words"
+print(final_msg)

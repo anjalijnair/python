@@ -12,6 +12,6 @@ print(book2)
 total=book1Price+book2Price
 total_book=f"total price: {total}"
 msg="Thank you..."
-finaloutput=multi_str+"\n"+book1+"\n"+book2+"\n"+total_book+"\n"+msg
+finaloutput=multi_str+"\n"+book1+"\t"+book2+"\n"+total_book+"\n"+msg
 print(finaloutput)
 print(finaloutput.upper())
