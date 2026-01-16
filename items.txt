@@ -1,8 +1,6 @@
 rice
-
-
 water
 chilli
-& C:/Users/Anjali/AppData/Local/Programs/Python/Python312/python.exe d:/python/day13cw.py
 sugar
 salt
+oil
